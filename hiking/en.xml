@@ -1,0 +1,161 @@
+<layouts>
+	<layout name="root">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="page" label="Trail" targetlayout="trail" />
+			<button type="page" label="Stream" targetlayout="stream" />
+		</row>
+		<row>
+			<button type="page" label="Landmark" targetlayout="landmark" />
+			<button type="page" label="Feature" targetlayout="feature" />
+		</row>
+	</layout>
+	<layout name="trail">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="tag" label="Dirt surface" />
+			<button type="tag" label="Gravel surface" />
+			<button type="tag" label="Asphalt surface" />
+		</row>
+		<row>
+			<button type="page" label="Junction" targetlayout="junction" />
+		</row>
+		<row>
+			<button type="tag" label="0.25m" />
+			<button type="tag" label="0.5m" />
+			<button type="tag" label="1m" />
+			<button type="tag" label="2m" />
+			<button type="tag" label="3m" />
+		</row>
+		<row>
+			<button type="tag" label="Trail continues" />
+			<button type="tag" label="Trail ends" />
+		</row>
+		<row>
+			<button type="tag" label="Trail uncertain" />
+			<button type="tag" label="Game trail" />
+			<button type="tag" label="Off trail" />
+			<button type="tag" label="On trail" />
+		</row>
+	</layout>
+	<layout name="junction">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="tag" label="Junction left" />
+			<button type="tag" label="Junction both" />
+			<button type="tag" label="Junction four-way" />
+			<button type="tag" label="Junction right" />
+		</row>
+		<row>
+			<button type="tag" label="Former junction left" />
+			<button type="tag" label="Former junction both" />
+			<button type="tag" label="Former junction right" />
+		</row>
+		<row>
+			<button type="tag" label="Demolished junction left" />
+			<button type="tag" label="Demolished junction both" />
+			<button type="tag" label="Demolished junction right" />
+		</row>
+	</layout>
+	<layout name="stream">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="tag" label="Stream left along" />
+			<button type="tag" label="Stream left against" />
+			<button type="tag" label="Stream right against" />
+			<button type="tag" label="Stream right along" />
+		</row>
+		<row>
+			<button type="tag" label="Stream junction on the left" />
+			<button type="tag" label="Stream junction on the right" />
+		</row>
+		<row>
+			<button type="tag" label="Ford left-to-right" />
+			<button type="tag" label="Ford right-to-left" />
+			<button type="tag" label="Culvert left-to-right" />
+			<button type="tag" label="Culvert right-to-left" />
+			<button type="tag" label="Bridge left-to-right" />
+			<button type="tag" label="Bridge right-to-left" />
+		</row>
+		<row>
+			<button type="tag" label="Wetland left" />
+			<button type="tag" label="Wet trail" />
+			<button type="tag" label="Wetland right" />
+		</row>
+	</layout>
+	<layout name="landmark">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="tag" label="Power line" />
+			<button type="tag" label="Buried pipeline" />
+			<button type="tag" label="Trench" />
+		</row>
+		<row>
+			<button type="tag" label="Cairn" />
+			<button type="tag" label="Benchmark" />
+			<button type="tag" label="Survey marker" />
+			<button type="tag" label="Boundary marker" />
+		</row>
+		<row>
+			<button type="tag" label="Fence left" />
+			<button type="tag" label="End fence left" />
+			<button type="tag" label="Fence across" />
+			<button type="tag" label="End fence right" />
+			<button type="tag" label="Fence right" />
+		</row>
+		<row>
+			<button type="tag" label="Gate" />
+			<button type="tag" label="Bollard" />
+			<button type="tag" label="Cycle barrier" />
+		</row>
+	</layout>
+	<layout name="feature">
+		<row>
+			<button type="voicerec" />
+			<button type="picture" />
+			<button type="textnote" />
+		</row>
+		<row>
+			<button type="tag" label="Bench" />
+			<button type="tag" label="Picnic table" />
+			<button type="tag" label="Campsite" />
+		</row>
+		<row>
+			<button type="tag" label="Toilet" />
+			<button type="tag" label="Trash can" />
+		</row>
+		<row>
+			<button type="tag" label="Trail marker" />
+			<button type="tag" label="Trailhead" />
+			<button type="tag" label="Parking lot" />
+		</row>
+		<row>
+			<button type="tag" label="Map board" />
+			<button type="tag" label="Notice board" />
+		</row>
+		<row>
+			<button type="tag" label="Bridge" />
+			<button type="tag" label="Viewpoint" />
+		</row>
+	</layout>
+</layouts>
